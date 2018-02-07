@@ -2,7 +2,7 @@
 
     var appModule = angular.module("appModule", ["ngRoute"]);
 
-    appModule.controller("mainController", function() {
+    appModule.controller("mainController", function($scope) {
         $scope.authorName = "Mayank Gupta"
     });
 

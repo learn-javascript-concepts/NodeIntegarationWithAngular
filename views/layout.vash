@@ -7,6 +7,7 @@
         <script src="lib/angular/angular.js"></script>
         <script src="lib/angular-route/angular-route.js"></script>
         <script src="appScripts/angular/appModule.js"></script>
+        <base href="/">
     </head>
     <body ng-app="appModule">
         <h1>This is Sample Layout Page Text Content</h1><br>
