@@ -10,5 +10,8 @@
     "dependencies": {
         "express": "^4.16.2",
         "vash": "^0.12.4"
+    },
+    "devDependencies": {
+        "bower": "^1.8.2"
     }
 }
