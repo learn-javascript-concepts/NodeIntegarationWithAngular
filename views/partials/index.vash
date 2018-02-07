@@ -1,0 +1,4 @@
+<div ng-controller="mainController">
+    <p>This is a sample Intermediate Step</p>
+    <label>Application Author: {{authorName}}</label>
+</div>

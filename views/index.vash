@@ -1,7 +1,0 @@
-@html.extend("layout", function(model) {
-    @html.block("body", function(model) {
-        <div>
-            <p>This is a sample Intermediate Step</p>
-        </div>
-    })
-})

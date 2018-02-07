@@ -4,9 +4,12 @@
     <head>
         <title>This is Sample Intermediate Integration</title>
         <link rel="stylesheet" type="text/css" href="./styles/index.css">
+        <script src="lib/angular/angular.js"></script>
+        <script src="lib/angular-route/angular-route.js"></script>
+        <script src="appScripts/angular/appModule.js"></script>
     </head>
-    <body>
+    <body ng-app="appModule">
         <h1>This is Sample Layout Page Text Content</h1><br>
-        @html.block("body")
+        <div ng-view></div>
     </body>
 </html>
