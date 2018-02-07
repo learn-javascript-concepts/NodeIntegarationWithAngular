@@ -5,10 +5,11 @@ var app = express();
 var server = http.createServer(app);
 
 app.set("view engine", "vash");
+app.use(express.static(__dirname + "/public"));
 
-app.get("/", function(req, res) {
-    res.render("index", {});
-});
+var controllers = require("./controllers");
+
+controllers.init(app);
 
 server.listen(5000);
 

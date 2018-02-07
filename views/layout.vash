@@ -3,6 +3,7 @@
 <html>
     <head>
         <title>This is Sample Intermediate Integration</title>
+        <link rel="stylesheet" type="text/css" href="./styles/index.css">
     </head>
     <body>
         <h1>This is Sample Layout Page Text Content</h1><br>
