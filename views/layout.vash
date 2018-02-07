@@ -1,0 +1,11 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>This is Sample Intermediate Integration</title>
+    </head>
+    <body>
+        <h1>This is Sample Layout Page Text Content</h1><br>
+        @html.block("body")
+    </body>
+</html>

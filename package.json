@@ -1,0 +1,14 @@
+{
+    "name": "AngularIntegrationWithNode",
+    "version": "0.0",
+    "description": "Integrate Node with sinple Angular Application",
+    "main": "server.js",
+    "author": {
+        "name": "Mayank Gupta",
+        "email": "MayankGupta688@gmail.com"
+    },
+    "dependencies": {
+        "express": "^4.16.2",
+        "vash": "^0.12.4"
+    }
+}
