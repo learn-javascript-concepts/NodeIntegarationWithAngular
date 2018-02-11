@@ -1,6 +1,6 @@
 {
     "name": "AngularIntegrationWithNode",
-    "version": "0.0",
+    "version": "0.0.0",
     "description": "Integrate Node with sinple Angular Application",
     "main": "server.js",
     "author": {
@@ -10,6 +10,7 @@
     "dependencies": {
         "express": "^4.16.2",
         "grunt": "^1.0.1",
+        "grunt-cli": "^1.2.0",
         "vash": "^0.12.4"
     },
     "devDependencies": {
